@@ -79,7 +79,7 @@
 
 (def remove-dhh [[:db/retract rubyfuza-id :group/users dhh-id]])
 
-@(d/transact conn remove-DHH)
+@(d/transact conn remove-dhh)
 (def db2 (d/db conn))
 
 
